@@ -1,0 +1,37 @@
+# Ignore Node.js related files and folders
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore development build artifacts
+build/
+dist/
+
+# Ignore environment files (e.g., .env, .env.local)
+.env*
+.env.local
+
+# Ignore logs and other generated files
+*.log
+*.pid
+*.lock
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore npm package lock files
+yarn.lock
+
+# Ignore database files
+*.db
+
+# Ignore IDE or editor specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.editorconfig
+*.eslintrc
+
+# Ignore test coverage reports
+coverage/
