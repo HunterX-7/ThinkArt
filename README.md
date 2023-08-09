@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./frontend//src/assets/logo.svg" alt="logo" width="250"  height="auto" />
+  <img src="./frontend//src/assets/logo.svg" alt="logo" width="300"  height="auto" />
   <br/>
 
 </div>
@@ -29,7 +29,7 @@
 
 # 📖 ThinkArt <a name="about-project"></a>
 
-**ThinkArt** is a DALL-E clone using a fusion of React, Tailwind CSS, and Vite brings creativity to life. Integrated with Node, Express, MongoDB, OpenAI, and Cloudinary, it empowers users to explore art through technology. Unleash creativity, connect with a community, and share masterpieces on this dynamic platform.
+**ThinkArt** is a DALL-E clone using a fusion of React, Tailwind CSS, and Vite that brings creativity to life. Integrated with Node, Express, MongoDB, OpenAI, and Cloudinary, it empowers users to explore art through technology. Unleash creativity, connect with a community, and share masterpieces on this dynamic platform.
 
 <!-- <img src="./src/assets/Capture.png" alt="app-demo" /> -->
 
@@ -50,15 +50,15 @@
     <li>Vite</li>
   </ul>
 </details>
+
 <details>
   <summary>Backend</summary>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>Tailwind CSS</li>
-    <li>React</li>
-    <li>Vite</li>
+    <li>Node</li>
+    <li>Express</li>
+    <li>MongoDB</li>
+    <li>OpenAI</li>
+    <li>Cloudinary</li>
   </ul>
 </details>
 
@@ -78,7 +78,10 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- Node js
+- Node.js
+- MongoDB
+- Cloudinary
+- OPenAI
 - Visual Studio Code
 - Git Bash
 - NPM installed locally
@@ -93,7 +96,7 @@ git clone https://github.com/HunterX-7/ThinkArt.git
 
 ### Install
 
-Install this project with:
+Install this project run the following command in the frontend and backend folder:
 
 ```sh
 npm install
@@ -101,10 +104,16 @@ npm install
 
 ### Usage
 
-To run the project, execute the following command:
+To run the frontend side of the project, execute the following command:
 
 ```sh
 npm run dev
+```
+
+To run the backend side of the project, execute the following command:
+
+```sh
+npm start
 ```
 
 <!-- AUTHORS -->
