@@ -66,7 +66,7 @@ const Home = () => {
         <p className='mt-2 font-medium text-[#303136] text-[16px] lg:max-w-[750px] max-w-[500px]'>Explore a captivating assortment of imaginative and visually breathtaking images created by AI.</p>
       </div>
 
-      <div className='mt-16'>
+      <div className='mt-10'>
         <FormInput 
           labelName="Search Posts"
           type="text"

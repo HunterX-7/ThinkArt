@@ -31,7 +31,6 @@ const CreatePost = () => {
         })
 
         await response.json();
-        alert('Success!')
         navigate('/');
       } catch (error) {
         alert(error)
