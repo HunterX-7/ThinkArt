@@ -31,7 +31,7 @@
 
 **ThinkArt** is a DALL-E clone using a fusion of React, Tailwind CSS, and Vite that brings creativity to life. Integrated with Node, Express, MongoDB, OpenAI, and Cloudinary, it empowers users to explore art through AI technology. Unleash creativity, and share masterpieces on this dynamic platform.
 
-<!-- <img src="./src/assets/Capture.png" alt="app-demo" /> -->
+<img src="./frontend/src/assets/Capture.png" alt="app-demo" />
 
 </br>
 
